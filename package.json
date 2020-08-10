@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod_start": "nodemon index.js",
     "load": "npm install socket.io morgan rotating-file-stream kue connect-flash connect-mongo nodemailer passport passport-google-oauth passport-jwt passport-local cookie-parser crypto ejs express express-ejs-layouts express-session jsonwebtoken mongoose multer node-sass-middleware gulp-cli -g gulp -D gulp-uglify-es gulp-imagemin"
-
   },
   "keywords": [
     "social"
@@ -26,9 +25,9 @@
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.15.6",
     "gulp-cssnano": "^2.1.3",
-    "gulp-imagemin": "^6.0.0",
+    "gulp-imagemin": "^6.2.0",
     "gulp-rev": "^9.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-uglify-es": "^1.0.4",
     "jsonwebtoken": "^8.5.1",
     "kue": "^0.11.6",
